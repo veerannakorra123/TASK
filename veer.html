@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ccc.css">
+</head>
+<body>
+    <video id="veeranna" width="250px" controls>
+    <source src="Sudigaali Sudheer Performance – Extra Jabardasth - 9th September 2016– ETV  Telugu.mp4">
+ </video>
+ <button onclick="play()">play</button>
+ <button onclick="pause()">pause</button>
+ <button onclick="zoomin()">zoomin</button>
+ <button onclick="zoomout()">zoomout</button>
+ <button onclick="up()">sethalfvolume</button>
+ <button onclick="down()">setfullvolume</button>
+ <br> <br> <script>
+    var a = document.getElementById('veeranna')
+    function play(){
+        a.play();
+    }
+    function pause(){
+        a.pause();
+    }
+    function zoomin(){
+        a.width=1000;
+
+    }
+    function zoomout(){
+        a.width=100;
+
+    }
+    function up(){
+        a.volume=0.9;
+    }
+
+    function down(){
+        a.volume=0.2;
+    }
+
+ </script>
+
+</body>
+</html>
